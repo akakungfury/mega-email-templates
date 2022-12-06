@@ -7,26 +7,21 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" /> -->
-  <title>Dugimail</title>
+<!--  <meta name="color-scheme" content="light dark" />-->
+<!--  <meta name="supported-color-schemes" content="light dark" />-->
+  <title>Mega</title>
   <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
     table {
       border-spacing: 0;
       mso-cellspacing: 0;
       mso-padding-alt: 0;
     }
-
     td {
       padding: 0;
     }
-
     #outlook a {
       padding: 0;
     }
-
     a {
       text-decoration: none;
       color: #e8fbfa;
@@ -39,85 +34,129 @@
         max-width: 100% !important;
         min-width: 100% !important;
       }
-
       .two-columns .column img {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
       }
-
+      .two-columns .column .column {
+        width: 50% !important;
+        max-width: 50% !important;
+        min-width: 50% !important;
+      }
       .three-columns .column {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
       }
-
       .three-columns .column table {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
       }
-
       .three-columns .column img {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 100% !important;
       }
+      .header {
+        padding-bottom: 24px !important;
+      }
+      .header-title {
+        padding-bottom: 24px !important;
+      }
+      .newsmaker-title {
+        padding: 13px 23px 7px 23px !important;
+      }
+      .newsmaker-desc {
+        padding-bottom: 20px !important;
+      }
+      .newsmaker-desc p {
+        font-size: 15px !important;
+        line-height: 18px !important;
+      }
+      .newsmaker-btn {
+        padding-bottom: 22px !important;
+      }
+      .three-columns .column table.news-btn {
+        width: inherit !important;
+        max-width: inherit !important;
+        min-width: inherit !important;
+      }
+      .offer-cards {
+        padding: 33px 16px 0px 16px !important;
+      }
+      .offer-cards-2 {
+        padding: 0px 16px 0px 16px !important;
+      }
+      .offer-card__logo {
+        padding: 18px 15px 8px 15px !important;
+      }
+      .two-columns .column .offer-card__logo img {
+        width: 60% !important;
+        max-width: 60% !important;
+        min-width: 60% !important;
+      }
+      .offers__btn {
+        padding: 40px 0px 40px 0px !important;
+      }
+      .footer-container {
+        padding-bottom: 76px!important;
+      }
+      .center {
+        background-color: #eee9de;
+        background:url('/images/email_bg_lines.png') bottom right -12px / 120% no-repeat #eee9de !important;
+      }
     }
 
-    /*@media screen and (max-width: 399.98px) {*/
-    @media screen and (max-width: 420px) {
-      .mobile-padding {
-        /*padding-right: 10px !important;*/
-        /*padding-left: 10px !important;*/
+    @media screen and (max-width: 500px) {
+      .sect-header {
+        font-size: 26px !important;
+        line-height: 32px !important;
       }
-
-      .mobile-col-padding {
-        /*padding-right: 0 !important;*/
-        /*padding-left: 0 !important;*/
+      .offer-card__logo {
+        border-top-left-radius: 15px !important;
+        border-top-right-radius: 15px !important;
       }
-
-      /*.two-columns .column {*/
-      /*  width: 100% !important;*/
-      /*  max-width: 100% !important;*/
-      /*}*/
-
-      /*.two-columns .column img {*/
-      /*  width: 100% !important;*/
-      /*  max-width: 100% !important;*/
-      /*}*/
-
-      /*.three-columns .column {*/
-      /*  width: 100% !important;*/
-      /*  max-width: 100% !important;*/
-      /*}*/
-
-      /*.three-columns .column img {*/
-      /*  width: 100% !important;*/
-      /*  max-width: 100% !important;*/
-      /*}*/
+      .offer-card > tbody > tr > td {
+        padding: 7px 7px 7px 7px !important;
+      }
+      .offer-card__title {
+        height: 55px !important;
+        padding: 0px 6px 11px 13px !important;
+      }
+      .offer-card__title h3 {
+        height: 55px !important;
+        font-size: 15px !important;
+        line-height: 18px !important;
+      }
+      .offer-card__date {
+        padding: 0px 13px 0px 13px !important;
+      }
+      .offer-card__date p {
+        font-size: 12px !important;
+        line-height: 15px !important;
+      }
+      .offer-card__decor {
+        padding-bottom: 7px !important;
+      }
+      .offer-card__btn-container {
+        padding-bottom: 13px !important;
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+      }
+      .offer-card__btn {
+        padding: 7px 14px 7px 14px !important;
+        font-size: 10px !important;
+        line-height: 10px !important;
+      }
+      .footer .sect-header {
+        text-align: left !important;
+      }
+      .footer .app-links {
+        padding-bottom: 40px !important;
+      }
     }
-
-    /* Custom Dark Mode Colors */
-    /* :root {
-      color-scheme: light dark;
-      supported-color-schemes: light dark;
-    }
-
-    @media (prefers-color-scheme: dark) {
-
-      table,
-      td {
-        background-color: #06080B !important;
-      }
-
-      h1,
-      h2,
-      h3,
-      p {
-        color: #ffffff !important;
-      }
-    } */
   </style>
 
   <!--[if (gte mso 9)|(IE)]>
@@ -136,7 +175,7 @@
   <![endif]-->
 </head>
 
-<body style="Margin:0;padding:0;min-width:100%;background-color:#EEE9DE;">
+<body style="Margin:0;padding:0;min-width:100%;background-color:#eee9de;">
 
   <!--[if (gte mso 9)|(IE)]>
       <style type="text/css">
@@ -145,7 +184,7 @@
       </style>
    <![endif]-->
 
-  <center style="width: 100%;table-layout:fixed;background-color: #eee9de;background: #eee9de bottom / contain no-repeat url('/images/email_bg_lines.png')">
+  <center class="center" style="width: 100%;table-layout:fixed;background-color: #eee9de;background:url('/images/email_bg_lines.png') bottom right -12px / contain no-repeat #eee9de;">
     <div style="max-width: 980px;">
 
       <!-- Preheader (remove comment) -->
@@ -157,21 +196,20 @@
 
       <!--[if (gte mso 9)|(IE)]>
         <table width="980" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
-          style="color:#1C1E23;">
+          style="color:#767571;">
         <tr>
         <td>
       <![endif]-->
 
       <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
-        style="color:#1C1E23;font-family: 'Poppins',sans-serif, Arial, Helvetica;Margin:0;padding:0px;width: 100%;max-width: 980px;"
+        style="color:#767571;font-family: 'Verdana',sans-serif, Arial, Helvetica;Margin:0;padding:0px;width: 100%;max-width: 980px;"
         >
         <!-- header -->
         <tr>
-          <td  style="padding: 45px 35px 26px 35px;font-size: 0;">
-            <table  border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%; background-color: #ffffff;border-radius: 40px">
+          <td class="dt" style="padding: 45px 35px 26px 35px;font-size: 0;">
+            <table class="header" border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%; background-color: #ffffff;border-radius: 40px">
               <tr>
                 <td align="center" style="padding-top: 26px;padding-bottom: 26px; font-size: 0;">
-<!--                <td align="center" style="padding-left: 30px; padding-right: 30px; padding-bottom: 30px; vertical-align: middle; font-size: 0;">-->
 
                   <!--[if (gte mso 9)|(IE)]>
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
@@ -181,7 +219,6 @@
 
                   <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="display: inline-block;">
                     <tr>
-<!--                      <td style="padding-top: 65px;">-->
                       <td height="132" style="padding: 0px 30px 0px 30px; height: 132px;font-size: 0;">
                           <a rel="noopener" href="https://mega.ru/" target="_blank">
                             <img src="/images/mt1_main_logo.png" alt="MEGA Logo" border="0" width="240" style="max-width: 240px">
@@ -196,8 +233,8 @@
 
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="display: inline-block; max-width: 556px;" >
                     <tr>
-                      <td height="52" valign="top" style="color: #767571; padding: 0px 30px 16px 30px;height: 52px;vertical-align: top;">
-                        <h2 style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Добро пожаловать в Мегу!</h2>
+                      <td class="header-title" height="52" valign="top" style="color: #767571; padding: 0px 30px 16px 30px;height: 52px;vertical-align: top;">
+                        <h2 class="sect-header" style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Добро пожаловать в Мегу!</h2>
                       </td>
                     </tr>
                     <tr>
@@ -221,21 +258,21 @@
         <!-- End header -->
 
         <!-- newsmaker -->
-        <!-- newsmaker__header -->
+        <!-- newsmaker header -->
         <tr>
           <td style="padding-left: 35px; padding-right: 35px;padding-top: 26px;font-size: 0;">
-            <table border="0" cellspacing="0" cellpadding="0" role="presentation" id="news-header">
+            <table border="0" cellspacing="0" cellpadding="0" role="presentation" id="newsmaker-header">
               <tr>
                 <td style="padding-bottom: 5px;font-size: 0;">
-                  <h2 style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Большой инфоповод</h2>
+                  <h2 class="sect-header" style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Большой инфоповод</h2>
                 </td>
               </tr>
             </table>
           </td>
         </tr>
-        <!-- End newsmaker__header -->
+        <!-- End newsmaker header -->
 
-        <!-- newsmaker__card -->
+        <!-- newsmaker content -->
         <tr>
           <td style="padding: 16px 35px 26px 35px;font-size: 0;">
             <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%; border-radius: 40px;background-color: #d5cdc1;">
@@ -265,18 +302,18 @@
                 </td>
               </tr>
               <tr>
-                <td style="padding: 20px 23px 20px 23px;background-color: #d5cdc1;">
+                <td class="newsmaker-title" style="padding: 20px 23px 20px 23px;background-color: #d5cdc1;">
                   <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571;">Открытие нового
                     магазина 1</h3>
                 </td>
               </tr>
               <tr>
-                <td style="padding: 0px 23px 32px 23px;background-color: #d5cdc1;">
+                <td class="newsmaker-desc" style="padding: 0px 23px 32px 23px;background-color: #d5cdc1;">
                   <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 18px;line-height: 22px;color: #767571;">Состоялось открытие COZY HOME в ТЦ МЕГА Химки. Новый розничный магазин уютной сети занял площадь 140 кв. м на 1 этаже торгового центра.</p>
                 </td>
               </tr>
               <tr>
-                <td style="padding: 0px 0px 35px 0px;background-color: #d5cdc1;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                <td class="newsmaker-btn" style="padding: 0px 0px 35px 0px;background-color: #d5cdc1;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                     <tr>
                       <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
@@ -289,38 +326,38 @@
             </table>
           </td>
         </tr>
-        <!-- End newsmaker__card -->
+        <!-- End newsmaker content -->
         <!-- End newsmaker -->
 
         <!-- news -->
-        <!-- news__header -->
+        <!-- news header -->
         <tr>
           <td style="padding-left: 35px; padding-right: 35px;padding-top: 26px;font-size: 0;">
             <table border="0" cellspacing="0" cellpadding="0" role="presentation" id="news-header">
               <tr>
                 <td style="padding-bottom: 5px;font-size: 0;">
-                  <h2 style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Новости</h2>
+                  <h2 class="sect-header" style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Новости</h2>
                 </td>
               </tr>
             </table>
           </td>
         </tr>
-        <!-- End news__header -->
+        <!-- End news header -->
 
-        <!-- news__cards -->
+        <!-- news cards -->
         <tr>
-          <td align="center" style="padding: 5px 25px 26px 25px; font-size: 0;" class="three-columns mobile-padding">
+          <td align="center" style="padding: 5px 25px 26px 25px; font-size: 0;" class="three-columns">
 
-            <!-- news__card1 -->
+            <!-- news-card 1 -->
             <!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
               <tr>
                 <td>
             <![endif]-->
-            <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block" class="column" id="news-card1">
+            <table class="dt" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block" class="column" id="news-card1">
               <tr>
-                <td style="padding: 11px 10px 11px 10px;" class="mobile-col-padding">
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;table-layout:fixed;">
+                <td style="padding: 11px 10px 11px 10px;">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:40px;text-align: left;table-layout:fixed;">
                     <tr>
                       <td style="border-top-left-radius: 40px; border-top-right-radius: 40px;">
                         <img src="/images/news_card_img1.jpg" alt="Открытие новогомагазина" border="0" width="290" style="max-width: 290px; border-top-left-radius: 40px; border-top-right-radius: 40px;">
@@ -339,7 +376,7 @@
                     </tr>
                     <tr>
                       <td style="padding: 0px 45px 22px 45px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <table class="news-btn" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
                               <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#ffdb00;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 21px 30px 21px 30px; display: inline-block; border-radius: 50px;">ЧИТАТЬ ДАЛЬШЕ</a>
@@ -355,13 +392,13 @@
             <!--[if (gte mso 9)|(IE)]>
                 <td></td>
             <![endif]-->
-            <!-- End news__card1 -->
+            <!-- End news-card 1 -->
 
-            <!-- news__card2 -->
+            <!-- news-card 2 -->
             <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block;" class="column" id="news-card2">
               <tr>
-                <td style="padding: 11px 10px 11px 10px;" class="mobile-col-padding">
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;table-layout:fixed;">
+                <td style="padding: 11px 10px 11px 10px;">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:40px;text-align: left;table-layout:fixed;">
                     <tr>
                       <td style="border-top-left-radius: 40px; border-top-right-radius: 40px;">
                         <img src="/images/news_card_img1.jpg" alt="Открытие новогомагазина" border="0" width="290" style="max-width: 290px; border-top-left-radius: 40px; border-top-right-radius: 40px;">
@@ -380,7 +417,7 @@
                     </tr>
                     <tr>
                       <td style="padding: 0px 45px 22px 45px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <table class="news-btn" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
                               <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#ffdb00;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 21px 30px 21px 30px; display: inline-block; border-radius: 50px;">ЧИТАТЬ ДАЛЬШЕ</a>
@@ -396,13 +433,13 @@
             <!--[if (gte mso 9)|(IE)]>
             <td></td>
             <![endif]-->
-            <!-- End news__card2 -->
+            <!-- End news-card 2 -->
 
-            <!-- news__card3 -->
+            <!-- news-card3 -->
             <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block" class="column" id="news-card3">
               <tr>
-                <td style="padding: 11px 10px 11px 10px;" class="mobile-col-padding">
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left;table-layout:fixed;">
+                <td style="padding: 11px 10px 11px 10px;">
+                                    <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:40px;text-align: left;table-layout:fixed;">
                     <tr>
                       <td style="border-top-left-radius: 40px; border-top-right-radius: 40px;">
                         <img src="/images/news_card_img1.jpg" alt="Открытие новогомагазина" border="0" width="290" style="max-width: 290px; border-top-left-radius: 40px; border-top-right-radius: 40px;">
@@ -420,7 +457,7 @@
                     </tr>
                     <tr>
                       <td style="padding: 0px 45px 22px 45px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                        <table class="news-btn" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
                               <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#ffdb00;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 21px 30px 21px 30px; display: inline-block; border-radius: 50px;">ЧИТАТЬ ДАЛЬШЕ</a>
@@ -438,67 +475,64 @@
             </tr>
             </table>
             <![endif]-->
-            <!-- End news__card3 -->
-
+            <!-- End news-card3 -->
 
           </td>
         </tr>
-        <!-- End news__cards -->
+        <!-- End news cards -->
         <!-- End news -->
 
-        <!-- Offers -->
-        <!-- Offers__header -->
+        <!-- offers -->
+        <!-- 0ffers header -->
         <tr>
           <td style="padding: 26px 35px 16px 35px;font-size: 0;">
             <table border="0" cellspacing="0" cellpadding="0" role="presentation" id="offers-header">
               <tr>
                 <td style="padding-bottom: 5px;font-size: 0;">
-                  <h2 style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Выгодные предложения</h2>
+                  <h2 class="sect-header" style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Выгодные предложения</h2>
                 </td>
               </tr>
             </table>
           </td>
         </tr>
-        <!-- End Offers__header -->
+        <!-- End offers header -->
 
-
-        <!-- Offers__cards-row-x8 -->
+        <!-- offers cards-row-x8 -->
         <tr>
-
-          <td style="padding: 0px 35px 0px 35px;font-size: 0;">
-            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top;">
+          <td style="padding: 0px 35px 26px 35px;font-size: 0;">
+              <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #d5cdc1;border-radius:40px;vertical-align: top;">
               <tr>
 
                 <!-- контейнер для 2-ух таблиц, каждая из которых содержать в себе еще по 2 таблица с карточками преддожений -->
-                <td align="center" style="padding: 28px 35px 0px 35px;border-top-left-radius: 40px; border-top-right-radius: 40px;background-color: #d5cdc1;font-size: 0;" class="two-columns mobile-padding">
+                <td align="center" style="padding: 28px 35px 0px 35px;border-top-left-radius: 40px; border-top-right-radius: 40px;background-color: #d5cdc1;font-size: 0;" class="two-columns mobile-padding offer-cards">
 
-                  <!-- Offers__cards-row-x8-1a -->
+                  <!-- offers cards-row-x8-1a -->
                   <!--[if (gte mso 9)|(IE)]>
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                     <tr>
                       <td>
                   <![endif]-->
 
-                  <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column-off" id="offer-row-1a">
+                  <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block;table-layout:fixed;" class="column" id="offer-row-1a">
                     <tr>
                       <td align="center" style="padding: 0px;font-size: 0;" class="two-columns mobile-padding">
-                        <!-- news__offer-card1-1 -->
+                        <!-- offer-card 1a-1 -->
                         <!--[if (gte mso 9)|(IE)]>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1a-1">
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-1a-1">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -506,7 +540,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -514,16 +548,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -536,17 +570,19 @@
                         <!--[if (gte mso 9)|(IE)]>
                         <td></td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1a-2">
+                        <!-- End offer-card 1a-1 -->
+                        <!-- offer-card 1a-2 -->
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-1a-2">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -554,7 +590,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -562,16 +598,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -586,37 +622,37 @@
                         </tr>
                         </table>
                         <![endif]-->
-                        <!-- End news__card1-1 -->
+                        <!-- End offer-card 1a-2 -->
                       </td>
                     </tr>
                   </table>
-                  <!--End Offers__cards-row-x8-1a -->
+                  <!--End offers cards-row-x8-1a -->
 
                   <!--[if (gte mso 9)|(IE)]>
                   <td></td>
                   <![endif]-->
 
-                  <!-- Offers__cards-row-x8-1b -->
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column-off" id="offer-row-1b">
+                  <!-- offers cards-row-x8-1b -->
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column" id="offer-row-1b">
                     <tr>
                       <td align="center" style="padding: 0px;font-size: 0;" class="two-columns mobile-padding">
-                        <!-- news__offer-card1-1 -->
+                        <!-- offer-card 1b-1 -->
                         <!--[if (gte mso 9)|(IE)]>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1b-1">
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-1b-1">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -624,7 +660,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -632,16 +668,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -654,17 +690,19 @@
                         <!--[if (gte mso 9)|(IE)]>
                         <td></td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1b-2">
+                        <!-- End offer-card 1b-1 -->
+                        <!-- offer-card 1b-2 -->
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-1b-2">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -672,7 +710,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -680,16 +718,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -704,7 +742,7 @@
                         </tr>
                         </table>
                         <![endif]-->
-                        <!-- End news__card1-1 -->
+                        <!-- End offer-card 1b-2 -->
                       </td>
                     </tr>
                   </table>
@@ -715,45 +753,43 @@
                   </table>
                   <![endif]-->
 
-                  <!-- End Offers__cards-row-x8-1b -->
+                  <!-- End offers cards-row-x8-1b -->
                 </td>
-
 
               </tr>
 
-              <!-TODO: to make naming according to 2a/2b -->
               <tr>
 
                 <!-- контейнер для 2-ух таблиц, каждая из которых содержать в себе еще по 2 таблица с карточками преддожений -->
-                <td align="center" style="padding: 0px 35px 0px 35px;background-color: #d5cdc1;font-size: 0;" class="two-columns mobile-padding">
+                <td align="center" style="padding: 0px 35px 0px 35px;background-color: #d5cdc1;font-size: 0;" class="two-columns mobile-padding offer-cards-2">
 
-                  <!-- Offers__cards-row-x8-1a -->
+                  <!-- offers cards-row-x8-2a -->
                   <!--[if (gte mso 9)|(IE)]>
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                     <tr>
                       <td>
                   <![endif]-->
 
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column-off" id="offer-row-1a">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column" id="offer-row-2a">
                     <tr>
                       <td align="center" style="padding: 0px;font-size: 0;" class="two-columns mobile-padding">
-                        <!-- news__offer-card1-1 -->
+                        <!-- offer-card 2a-1 -->
                         <!--[if (gte mso 9)|(IE)]>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1a-1">
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-2a-1">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -761,7 +797,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -769,16 +805,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -791,17 +827,19 @@
                         <!--[if (gte mso 9)|(IE)]>
                         <td></td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1a-2">
+                        <!-- End offer-card 2a-1 -->
+                        <!-- offer-card 2a-2 -->
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-2a-2">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -809,7 +847,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -817,16 +855,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -841,37 +879,37 @@
                         </tr>
                         </table>
                         <![endif]-->
-                        <!-- End news__card1-1 -->
+                        <!-- End offer-card 2a-2 -->
                       </td>
                     </tr>
                   </table>
-                  <!--End Offers__cards-row-x8-1a -->
+                  <!--End offers cards-row-x8-2a -->
 
                   <!--[if (gte mso 9)|(IE)]>
                   <td></td>
                   <![endif]-->
 
-                  <!-- Offers__cards-row-x8-1b -->
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column-off" id="offer-row-1b">
+                  <!-- offers cards-row-x8-2b -->
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 420px; display: inline-block" class="column" id="offer-row-2b">
                     <tr>
                       <td align="center" style="padding: 0px;font-size: 0;" class="two-columns mobile-padding">
-                        <!-- news__offer-card1-1 -->
+                        <!-- offer-card 2b-1 -->
                         <!--[if (gte mso 9)|(IE)]>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1b-1">
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-2b-1">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -879,7 +917,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -887,16 +925,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -909,17 +947,19 @@
                         <!--[if (gte mso 9)|(IE)]>
                         <td></td>
                         <![endif]-->
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column-off" id="offer-card-1b-2">
+                        <!-- End offer-card 2b-1 -->
+                        <!-- offer-card 2b-2 -->
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 210px; display: inline-block" class="column offer-card" id="offer-card-2b-2">
                           <tr>
                             <td align="center" style="padding: 7px 10px 7px 10px;" class="mobile-col-padding">
-                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: left">
+                              <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:25px;text-align: left">
                                 <tr>
-                                  <td style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
+                                  <td class="offer-card__logo" style="padding: 31px 6px 13px 6px;border-top-left-radius: 25px; border-top-right-radius: 25px;background-color: #ffffff;">
                                     <img src="/images/offer_card_img1.png" alt="Иконка предложения" border="0" width="82" style="max-width: 82px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
+                                  <td class="offer-card__title" height="72" style="padding: 0px 9px 14px 9px;background-color: #ffffff;height: 72px">
                                     <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571; height: 72px">
                                       Промокод <br>
                                       на 2000 <br>
@@ -927,7 +967,7 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
+                                  <td class="offer-card__date" style="padding: 0px 11px 28px 11px;background-color: #ffffff;">
                                     <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;">
                                       Действует до <br>
                                       <b>31.12.2022</b>
@@ -935,16 +975,16 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding-bottom: 11px;background-color: #ffffff;">
+                                  <td class="offer-card__decor" style="padding-bottom: 11px;background-color: #ffffff;">
                                     <img src="/images/offer_card_decorator.png" alt="Декоративное изображение" border="0" width="190" style="max-width: 190px;">
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td style="padding: 0px 28px 22px 28px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                                  <td class="offer-card__btn-container" style="padding: 0px 11px 22px 11px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
                                     <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                                       <tr>
                                         <td style="text-align: center;background-color:#eee9de;border-radius: 50px;">
-                                          <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
+                                          <a class="offer-card__btn" rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#eee9de;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 11px 22px 11px 22px; display: inline-block; border-radius: 50px;">ПОЛУЧИТЬ</a>
                                         </td>
                                       </tr>
                                     </table>
@@ -959,7 +999,7 @@
                         </tr>
                         </table>
                         <![endif]-->
-                        <!-- End news__card1-1 -->
+                        <!-- End offer-card 2b-2 -->
                       </td>
                     </tr>
                   </table>
@@ -970,14 +1010,12 @@
                   </table>
                   <![endif]-->
 
-                  <!-- End Offers__cards-row-x8-1b -->
+                  <!-- End offers cards-row-x8-2b -->
                 </td>
-
-
               </tr>
 
               <tr>
-                <td align="center" style="padding: 60px 0px 65px 0px;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;background-color: #d5cdc1;font-size: 0;">
+                <td class="offers__btn" align="center" style="padding: 60px 0px 65px 0px;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;background-color: #d5cdc1;font-size: 0;">
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                     <tr>
                       <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
@@ -988,34 +1026,185 @@
                 </td>
               </tr>
 
-
             </table>
           </td>
         </tr>
-        <!-- End Offers__cards-row-x8 -->
+        <!-- End offers cards-row-x8 -->
         <!-- End Offers -->
 
-        <!-- Footer -->
+
+        <!-- articles -->
+        <!-- articles header -->
         <tr>
-          <td style="padding: 30px 35px 182px 35px;font-size: 0;">
-            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%; background-color: #ffffff;border-radius: 40px">
+          <td style="padding-left: 35px; padding-right: 35px;padding-top: 26px;font-size: 0;">
+            <table border="0" cellspacing="0" cellpadding="0" role="presentation" id="articles-header">
+              <tr>
+                <td style="padding-bottom: 5px;font-size: 0;">
+                  <h2 class="sect-header" style="margin:0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;">Полезно знать</h2>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- End articles header -->
+
+        <!-- articles cards -->
+        <tr>
+          <td align="center" style="padding: 5px 25px 26px 25px; font-size: 0;" class="three-columns">
+
+            <!-- article-card 1 -->
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+              <tr>
+                <td>
+            <![endif]-->
+            <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block" class="column" id="article-card1">
+              <tr>
+                <td style="padding: 11px 10px 11px 10px;">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:40px;text-align: left;table-layout:fixed;">
+                    <tr>
+                      <td style="border-top-left-radius: 40px; border-top-right-radius: 40px;">
+                        <img src="/images/news_card_img1.jpg" alt="Открытие новогомагазина" border="0" width="290" style="max-width: 290px; border-top-left-radius: 40px; border-top-right-radius: 40px;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="48" style="padding: 13px 23px 6px 23px;background-color: #ffffff;height: 48px;">
+                        <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571;height: 48px;">Разумное потребление 1</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="72" style="padding: 0px 23px 32px 23px;background-color: #ffffff;height: 72px;">
+                        <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;height: 72px;">Состоялось открытие COZY HOME в ТЦ МЕГА Химки. Новый розничный магазин уютной сети занял площадь</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0px 45px 22px 45px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                        <table class="news-btn" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                          <tr>
+                            <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
+                              <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#ffdb00;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 21px 30px 21px 30px; display: inline-block; border-radius: 50px;">ЧИТАТЬ ДАЛЬШЕ</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            <td></td>
+            <![endif]-->
+            <!-- End article-card 1 -->
+
+            <!-- article-card 2 -->
+            <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block;" class="column" id="article-card2">
+              <tr>
+                <td style="padding: 11px 10px 11px 10px;">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:40px;text-align: left;table-layout:fixed;">
+                    <tr>
+                      <td style="border-top-left-radius: 40px; border-top-right-radius: 40px;">
+                        <img src="/images/news_card_img1.jpg" alt="Открытие новогомагазина" border="0" width="290" style="max-width: 290px; border-top-left-radius: 40px; border-top-right-radius: 40px;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="48" style="padding: 13px 23px 6px 23px;background-color: #ffffff;height: 48px;">
+                        <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571;height: 48px;">Разумное потребление 2</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="72" style="padding: 0px 23px 32px 23px;background-color: #ffffff;height: 72px;">
+                        <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;height: 72px;"></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0px 45px 22px 45px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                        <table class="news-btn" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                          <tr>
+                            <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
+                              <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#ffdb00;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 21px 30px 21px 30px; display: inline-block; border-radius: 50px;">ЧИТАТЬ ДАЛЬШЕ</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            <td></td>
+            <![endif]-->
+            <!-- End article-card 2 -->
+
+            <!-- article-card3 -->
+            <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 310px; display: inline-block" class="column" id="article-card3">
+              <tr>
+                <td style="padding: 11px 10px 11px 10px;">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #ffffff;border-radius:40px;text-align: left;table-layout:fixed;">
+                    <tr>
+                      <td style="border-top-left-radius: 40px; border-top-right-radius: 40px;">
+                        <img src="/images/news_card_img1.jpg" alt="Открытие новогомагазина" border="0" width="290" style="max-width: 290px; border-top-left-radius: 40px; border-top-right-radius: 40px;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="48" style="padding: 13px 23px 6px 23px;background-color: #ffffff;height: 48px;">
+                        <h3 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 20px;line-height: 24px;color: #767571;height: 48px;">Разумное потребление 3</h3>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="72" style="padding: 0px 23px 32px 23px;background-color: #ffffff;height: 72px;">
+                        <p style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #767571;height: 72px;">Состоялось открытие COZY HOME в ТЦ МЕГА Химки. Новый розничный магазин уютной сети занял площадь</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 0px 45px 22px 45px;background-color: #ffffff;border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
+                        <table class="news-btn" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                          <tr>
+                            <td style="text-align: center;background-color:#ffdb00;border-radius: 50px;">
+                              <a rel="noopener" href="https://mega.ru/" target="_blank" style="background-color:#ffdb00;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 14px;line-height: 17px;text-align: center;text-transform: uppercase;text-decoration: none;color: #767571;padding: 21px 30px 21px 30px; display: inline-block; border-radius: 50px;">ЧИТАТЬ ДАЛЬШЕ</a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            <!-- End article-card3 -->
+
+          </td>
+        </tr>
+        <!-- End articles cards -->
+        <!-- End articles -->
+
+        <!-- footer -->
+        <tr>
+          <td class="footer-container" style="padding: 30px 35px 182px 35px;font-size: 0;">
+            <table class="footer" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation" style="width: 100%; background-color: #ffffff;border-radius: 40px">
               <tr>
                 <td valign="middle" style="padding:16px 23px 12px 23px; vertical-align: top; font-size: 0;text-align: center;">
-                  <h2 style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;text-align: center;">Скачай приложение Мега</h2>
+                  <h2 class="sect-header" style="margin: 0;font-family: 'Verdana';font-style: normal;font-weight: 700;font-size: 30px;line-height: 36px;color: #767571;text-align: center;">Скачай приложение Мега</h2>
                 </td>
               </tr>
 
-              <!--Footer__app-links-->
+              <!--footer app-links-->
               <tr>
-                <td align="center" style="font-size: 0; padding-bottom: 50px" class="two-columns mobile-padding">
+                <td class="app-links" align="center" style="font-size: 0; padding-bottom: 50px" class="two-columns">
                   <!--[if (gte mso 9)|(IE)]>
                   <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                     <tr>
                       <td>
                   <![endif]-->
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 225px; display: inline-block" class="column-off">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 225px; display: inline-block">
                     <tr>
-                      <td style="font-size: 0;" class="mobile-col-padding">
+                      <td style="font-size: 0;">
                         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: center">
                           <tr>
                             <td style="padding: 7px 10px 7px 10px;text-align: center;font-size: 0;">
@@ -1031,7 +1220,7 @@
                   <!--[if (gte mso 9)|(IE)]>
                   <td></td>
                   <![endif]-->
-                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 225px; display: inline-block" class="column-off">
+                  <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="vertical-align: top; width: 100%; max-width: 225px; display: inline-block">
                     <tr>
                       <td style="font-size: 0;" class="mobile-col-padding">
                         <table border="0" cellspacing="0" cellpadding="0" role="presentation" style="text-align: center">
@@ -1053,9 +1242,9 @@
                   <![endif]-->
                 </td>
               </tr>
-              <!--End Footer__app-links-->
+              <!--End footer app-links-->
 
-              <!--Footer__description-->
+              <!--footer description-->
               <tr>
                 <td align="center" style="padding:0px 23px 40px 23px; vertical-align: top; font-size: 0;text-align: center;">
 
@@ -1084,9 +1273,9 @@
 
                 </td>
               </tr>
-              <!--End Footer__description-->
+              <!--End footer description-->
 
-              <!--Footer__copyright-->
+              <!--footer copyright-->
               <tr>
                 <td align="center" style="padding:0px 23px 33px 23px; vertical-align: top; font-size: 0;text-align: center;">
 
@@ -1115,12 +1304,12 @@
 
                 </td>
               </tr>
-              <!--End Footer__copyright-->
+              <!--End footer copyright-->
 
             </table>
           </td>
         </tr>
-        <!-- End Footer -->
+        <!-- End footer -->
 
       </table>
 
